@@ -1,0 +1,80 @@
+<div class="gamePage">
+        
+    <div style="float: left;width: 25%;display: inline-block;">
+        <div id="ChatPane" style=" width: 100%;">
+                <textarea id="ChatArea" name="name" rows="25" 
+                style="resize: none;margin: 0px;width: 90%;font-size: 1.2vw;/* height: auto; */">
+                </textarea>
+                <input id="textInput" type="text" name="text" size="20" style="width: 53%;">
+                <button id="SendBut" type="button" name="button" style="font-size: 1vw;width: 34.2%;height: auto;">
+                    Отправить
+                </button>
+        </div>
+    </div>
+    <div style="float: left;display: inline-block;width: 74%;">
+        <div class="steps" style="text-align: center;">
+            <span style="color: rgba(200,0,0,0.9);font-size: 3vw;">
+                Ожидание
+            </span>
+            <br>
+        </div>
+
+        <div>
+            <div class="flex-conteiner">
+                <div style="width: 5%;"></div>
+                <div id="GamePane" class="flex-conteiner">
+                    <div class="warField" id="warField1">
+                            
+                            <div class="field1">
+                                <img class="svgField"  height="100%" src="images\fieldImage.svg" alt="Берег">
+                                    
+                            </div>
+                            
+                            <div class="field2"></div>
+                            <div class="field4"></div>
+                            <div class="field0"></div>
+                    </div>
+                    <div style="width: 5%;"></div>
+                    <div class="warField" id="warField2">
+                            
+                    <div class="field1">         
+                        <svg class="redRect" id="rect2" viewBox="0 0 52 52" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                        <g>
+                        <rect fill="#bf0000" id="canvas_background" height="50" width="50"></rect> 
+                        </g>
+                        </svg>
+                        <img class="svgField"  height="100%" src="images\fieldImage.svg" alt="Берег">          
+                    </div>
+                        <div class="field3"></div>
+                        <div class="field4"></div>
+                        <div class="field0"></div>
+                    </div>
+
+                    </div>
+            </div>
+            <div class="steps" style="text-align: center;">
+            <br>
+            </div>
+            <div id="shipsPrepare" class="steps flex-conteiner" style="text-align: center;">
+                <div style="height: 30px;width: 10%;"></div>
+                <div class="Ships-box">
+                    <ul class="shipsUl">
+                        <li><div class="ship-count">0</div><img class="ship S1" src="/ships/ship1.svg" alt="1">
+                        </li>
+                        <li><div class="ship-count">0</div><img class="ship S2" src="/ships/ship2.svg" alt="2">
+                        </li>
+                        <li><div class="ship-count">0</div><img class="ship S3" src="/ships/ship3.svg" alt="3">      
+                        </li>
+                        <li><div class="ship-count">0</div><img class="ship S4" src="/ships/ship4.svg" alt="4">
+                        </li>
+
+                        <img id="voidsvg" src="/imgvoid.svg">
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+     <script src="GameScript.js"></script>

@@ -1,0 +1,55 @@
+#greeting{
+    position: absolute;
+    border: 1px solid gray;
+    width: 470px;
+    padding: 20px 10px 20px 10px;
+    border-radius: 10px;
+    left: 30%;
+    top: 30%;
+    transition: all 0.3s ease;
+}
+#pane-control{
+  position:absolute;
+  top:200px;
+}
+
+#nickEnterSpan {position: relative;margin: 40px;font-size: 16px;
+  font-size: 4vw;;/* font-family: Gill Sans, sans-serif; */}
+
+.divblock {
+    position: relative;
+    left: 20%;
+}
+
+button#setNameBut {
+    left: 35%;
+    position: relative;
+}
+
+.ButStyleS1 {
+    outline:none !important;
+    margin: 5px;
+    transition-duration: 0.4s;
+    text-align: center;
+    cursor: pointer;
+    border:1px solid grey;
+    border-radius:5px;
+  }
+  
+  .ButStyleS1:hover {
+    background: #4CAF50; /* Green */
+    color: white;
+    margin: 6px 4px 4px 6px;
+  }
+  .ButStyleS1:focus {
+    outline:none !important;
+  }
+  @media (max-width:766px){
+    #greeting{
+      
+      width: 370px;
+      
+      left: 15%;
+      top: 30%;
+  }
+  }

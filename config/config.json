@@ -1,0 +1,10 @@
+{   "port": 3000,
+    "mongoose":{
+        "uri":"mongodb+srv://Andrey:Apassword@cluster0.r23x0.mongodb.net/todos",
+        "options":{
+            "useNewUrlParser":true,
+            "useFindAndModify":false,
+            "useUnifiedTopology": true
+        }
+    }
+}

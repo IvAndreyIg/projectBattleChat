@@ -1,0 +1,49 @@
+
+<div id="greeting" {{#if   isReg }}style="display: none;"{{/if}}>
+    <div>
+            <span id="nickEnterSpan">Введите никнейм</span>
+    </div>
+    
+    <div class="divblock">
+        <span id="namespan">никнейм:</span>
+        <input type="text" id="nameInput">
+    </div>
+
+    <button id="setNameBut" class="ButStyleS1">Подтвердить</button>
+</div>
+
+
+
+<div id="pane-control" {{#unless   isReg }}style="display: none;"{{/unless}}>
+    <div style="position:absolute;right: 20px;top: 10px;width: fit-content;">
+        <span id="userName" style="">
+        </span>
+        
+    <span id="rating" style="display:none"></span>
+    
+    </div>
+    
+    
+    
+    <div>
+        <button id="CreateRoomBut"> Создать комнату</button>
+        <span id="MyRooMID"></span>
+
+        <form id="postForm" action="/play" method="POST" name="dataF">
+            <input  type="hidden"  name="userName"> 
+            <input  type="hidden"  name="userID"> 
+        </form> 
+
+        <input id="textInput" type="text" name="text" size="20">
+        <button id="connectBut" type="button" name="button">подключиться</button>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+<script src="connectionScript.js"></script>

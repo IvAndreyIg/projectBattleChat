@@ -1,0 +1,115 @@
+#warField1{
+    position: relative;
+    
+ }
+ 
+ #warField2{
+    position: relative;
+    
+ }
+ .warField{
+    display:inline-block;
+    width: 45%;
+    height: 100%;
+    
+ }
+ .svgField{
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+ }
+
+ #ChatPane{
+     width: 20%;
+ }
+
+ #GamePane{
+     width: 90%;
+ }
+
+ .spanName{
+     width: 100px;
+ }
+ .redRect{
+    position: absolute;
+    width: 9.7%;
+    height: 9.7%;
+    left: 0%;
+    top: 0%;
+ }
+.hatch-img{
+position: absolute;  
+width: 9.355%;
+height: 9.3%; 
+}
+
+.boom-img{
+   position: absolute;  
+   width: 9.1%;
+   height: auto;
+}
+.ship-img{
+   position: absolute;  
+   width: 9.1%;
+   height: auto; 
+   }
+   
+
+.steps{
+   position: relative;
+}
+.Ships-box{
+   border: 1px solid blue;
+   width: 53%;
+    
+}
+
+
+.ship{
+   height: auto;
+    width: 30%;
+} 
+
+
+ .shipsUl li{
+
+ 
+   float: left; 
+   display: inline-block;
+ 
+   
+   /* border-right: 1px solid black;  */
+   height: 100%;
+   width: 24%; 
+ }
+ .shipsUl{
+   margin: 0;
+   padding: inherit;
+ }
+ .dragging{
+    background-color: rgba(1, 1, 1, 0);
+    border: 0px dotted black;
+ }
+ /* width="9%" height="auto" */
+
+ .trans{
+   transform-origin: 30% 5%;
+    transform: rotate(-90deg);
+ }
+ .goodTrans4{
+   transform-origin: 51% 11.5%;
+   transform: rotate(-90deg);
+ }
+ .goodTrans3{
+   transform-origin: 50% 15%;
+   transform: rotate(-90deg);
+ }
+ .goodTrans2{
+   transform-origin: 48% 24%;
+    transform: rotate(-90deg);
+ }
+ .goodTrans1{
+   
+   transform: rotate(-90deg);
+ }

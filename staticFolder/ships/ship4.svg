@@ -1,0 +1,16 @@
+<svg width="50" height="200" xmlns="http://www.w3.org/2000/svg">
+
+ 
+  
+  
+   <g transform="translate(30) rotate(90 10 10)">>
+   
+     <path stroke="#003f7f" id="svg_2" fill="#b9bab8" stroke-width="2.5" d="m2,25l15,20l175,0l0,-40l-175,0l-15,20z"/>
+    
+    <ellipse stroke="#003f7f" ry="12" rx="12"  cy="25" cx="40" stroke-opacity="null" stroke-width="4" fill="#e5e5e5"/>
+    <ellipse stroke="#003f7f" ry="12" rx="12"  cy="25" cx="90" stroke-opacity="null" stroke-width="4" fill="#e5e5e5"/>
+    <ellipse stroke="#003f7f" ry="12" rx="12"  cy="25" cx="140" stroke-opacity="null" stroke-width="4" fill="#e5e5e5"/>
+   </g>
+  
+ 
+</svg>

@@ -1,0 +1,19 @@
+<svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_3_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+ 
+  <rect fill="none" id="canvas_background" height="52" width="52" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+ 
+  <path filter="url(#svg_3_blur)" stroke="#bf0000" id="svg_3" d="m49.74984,41.31648l-16.34541,-16.34443l16.34244,-16.34443l-8.40146,-8.40689l-16.34541,16.34443l-16.34541,-16.34443l-8.40146,8.40689l16.34244,16.34443l-16.34541,16.34443l8.4074,8.40392l16.34244,-16.34443l16.34244,16.34443" stroke-width="0" fill="#bf0000"/>
+ </g>
+</svg>

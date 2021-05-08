@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50">
+ <g transform="translate(30) rotate(90 10 10)">>
+  <path stroke="#003f7f"  d="m2.0,25l10,20l35,0l0,-40l-35,-0l-10,20z" stroke-width="2.0" fill="#b9bab8"/>
+ </g>
+</svg>
